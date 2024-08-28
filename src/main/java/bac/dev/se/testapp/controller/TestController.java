@@ -10,7 +10,7 @@ public class TestController {
     int count = 1;
     @GetMapping
     public String test(){
-        // System.out.println("Hello world " + count);
+         System.out.println("Hello world " + count);
         return  "Hello world " + count++;
     }
 }
